@@ -9,6 +9,7 @@ namespace CSBasic
     class Program
     {
         string Var = "테스트";
+        //var something = "아하하"; 지역변수에서만 사용 가능
         static void Main(string[] args)
         {
             var name = "김" + "민" + "경";
@@ -160,6 +161,11 @@ namespace CSBasic
             Console.WriteLine(_char.GetType());
             Console.WriteLine(_string.GetType());
             Console.WriteLine((2211111111L).GetType());
+
+            var number3 = 100;
+            var number4 = "abc";
+            var number5 = 100.0;
+            var number6 = 100.0F;
         }
     }
 }
