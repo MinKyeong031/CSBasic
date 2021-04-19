@@ -125,6 +125,28 @@ namespace CSBasic
             output2 += "World";
             output2 += "!";
             Console.WriteLine(output2);
+
+            //증감 연산자
+            int number = 10;
+            Console.WriteLine(number++);
+            Console.WriteLine(++number);
+            Console.WriteLine(number--);
+            Console.WriteLine(--number);
+            Console.WriteLine(number);
+
+            number = 10;
+            number++;
+            Console.WriteLine(number);
+            ++number;
+            Console.WriteLine(number);
+            number--;
+            Console.WriteLine(number);
+            --number;
+            Console.WriteLine(number);
+            Console.WriteLine(number);
+
+
+
         }
     }
 }
